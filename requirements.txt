@@ -1,0 +1,7 @@
+pyinstaller
+customtkinter
+pillow
+pystray
+plyer
+requests
+schedule

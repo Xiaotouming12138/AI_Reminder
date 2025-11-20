@@ -1,0 +1,11 @@
+{
+    "language": "zh",
+    "api_url": "http://localhost:11434/api/generate",
+    "api_key": "",
+    "model": "gemma3:4b",
+    "prompt": "You are a helpful assistant. Please generate a very short, encouraging reminder for me to stay focused and drink water. Keep it under 20 words.",
+    "mode": "interval",
+    "time_value": "60",
+    "auto_start": true,
+    "theme": "System"
+}
