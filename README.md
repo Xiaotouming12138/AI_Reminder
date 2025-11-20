@@ -17,7 +17,7 @@ AI 提醒助手是一款轻量级的桌面应用程序，它利用本地或云�
 
 ### ⚙️ 安装与运行
 
- **安装依赖：**
+**安装依赖：**
     ```bash
     pip install -r requirements.txt
     ```
@@ -49,19 +49,13 @@ The AI Reminder Assistant is a lightweight desktop application designed to provi
 
 ### ⚙️ Installation and Setup
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/YourUsername/ai-reminder-assistant.git](https://github.com/YourUsername/ai-reminder-assistant.git)
-    cd ai-reminder-assistant
-    ```
-
-2.  **Install dependencies:**
+**Install dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
     *(Note: You need to create `requirements.txt` based on your imported libraries, e.g., `customtkinter`, `requests`, `schedule`, `plyer`, `pystray`, `Pillow`.)*
 
-3.  **Run the application:**
+**Run the application:**
     ```bash
     python main.py
     ```
@@ -78,4 +72,5 @@ The AI Reminder Assistant is a lightweight desktop application designed to provi
 ## 📝 许可证 (License)
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 本项目采用 MIT 许可证，详情请查看 [LICENSE](LICENSE) 文件。
