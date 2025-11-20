@@ -3,38 +3,6 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
-## CN
-
-### ✨ 项目概述
-AI 提醒助手是一款轻量级的桌面应用程序，它利用本地或云端的 LLM 来生成及时、可定制提醒消息。
-
-### 💡 主要功能
-* **AI 驱动提醒：** 根据用户定义的提示词（例如：“保持专注”、“多喝水”、“休息一下”）生成独一无二、个性化的提醒。
-* **灵活定时设置：** 支持两种提醒模式：
-    * **每日定时：** 设置一个具体时间（例如：`14:30`）来触发提醒。
-    * **间隔模式：** 设置每隔 N 分钟（例如：`60` 分钟）弹出一次提醒。
-* **LLM API 兼容：** 可与 Ollama (本地模型) 和标准 OpenAI 兼容的 API 端点配合使用。
-
-### ⚙️ 安装与运行
-
-**安装依赖：**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-**运行程序：**
-    ```bash
-    python main.py
-    ```
-
-### 🛠️ 配置说明 (设置标签页)
-
-1.  **API 地址：** 输入 LLM 模型的服务地址（例如：Ollama `http://localhost:11434/api/generate`）。
-2.  **模型名称：** 选择您的 API 服务上可用的模型（例如：`llama3`, `mistral`）。
-3.  **提示词标签页：** 在此定义给 AI 的系统提示词（例如：“你是一个鼓励人的助手，生成一条简短积极的工作提醒。”）。
-4.  **定时设置标签页：** 选择**每日定时**或**间隔 (分钟)**，并设置对应数值。
-
-
 ## EN
 
 ### ✨ Overview
@@ -69,8 +37,40 @@ The AI Reminder Assistant is a lightweight desktop application designed to provi
 5.  **Run on Startup:** Enable this option to automatically run the application when your computer boots.
 
 
+## CN
+
+### ✨ 项目概述
+AI 提醒助手是一款轻量级的桌面应用程序，它利用本地或云端的 LLM 来生成及时、可定制提醒消息。
+
+### 💡 主要功能
+* **AI 驱动提醒：** 根据用户定义的提示词（例如：“保持专注”、“多喝水”、“休息一下”）生成独一无二、个性化的提醒。
+* **灵活定时设置：** 支持两种提醒模式：
+    * **每日定时：** 设置一个具体时间（例如：`14:30`）来触发提醒。
+    * **间隔模式：** 设置每隔 N 分钟（例如：`60` 分钟）弹出一次提醒。
+* **LLM API 兼容：** 可与 Ollama (本地模型) 和标准 OpenAI 兼容的 API 端点配合使用。
+
+### ⚙️ 安装与运行
+
+**安装依赖：**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+**运行程序：**
+    ```bash
+    python main.py
+    ```
+
+### 🛠️ 配置说明 (设置标签页)
+
+1.  **API 地址：** 输入 LLM 模型的服务地址（例如：Ollama `http://localhost:11434/api/generate`）。
+2.  **模型名称：** 选择您的 API 服务上可用的模型（例如：`llama3`, `mistral`）。
+3.  **提示词标签页：** 在此定义给 AI 的系统提示词（例如：“你是一个鼓励人的助手，生成一条简短积极的工作提醒。”）。
+4.  **定时设置标签页：** 选择**每日定时**或**间隔 (分钟)**，并设置对应数值。
+
 ## 📝 许可证 (License)
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 本项目采用 MIT 许可证，详情请查看 [LICENSE](LICENSE) 文件。
+
