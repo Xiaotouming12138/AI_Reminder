@@ -67,10 +67,3 @@ AI 提醒助手是一款轻量级的桌面应用程序，它利用本地或云�
 2.  **模型名称：** 选择您的 API 服务上可用的模型（例如：`llama3`, `mistral`）。
 3.  **提示词标签页：** 在此定义给 AI 的系统提示词（例如：“你是一个鼓励人的助手，生成一条简短积极的工作提醒。”）。
 4.  **定时设置标签页：** 选择**每日定时**或**间隔 (分钟)**，并设置对应数值。
-
-## 📝 许可证 (License)
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-本项目采用 MIT 许可证，详情请查看 [LICENSE](LICENSE) 文件。
-
